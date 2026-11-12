@@ -58,48 +58,48 @@ code{background:rgba(120,140,200,.22);padding:1px 6px;border-radius:6px;font:13p
 #go:active{transform:translateY(4px);box-shadow:0 1px 0 #b97d14}
 #in{box-shadow:inset 0 3px 8px rgba(0,0,0,.25)}
 .hero h1{filter:drop-shadow(0 12px 26px rgba(75,139,190,.5))}
-.locked .stage{display:none}body:not(.locked) #auth{display:none}
-#auth{position:fixed;inset:0;z-index:3;display:flex;align-items:center;justify-content:center;padding:14px;perspective:1400px;overflow-y:auto;box-sizing:border-box}
-@media(min-width:820px){#auth{justify-content:flex-end;padding-right:5vw}}
-@media(max-width:819px){#auth{align-items:flex-end}}
-#wrap{width:min(440px,100%);transition:transform .25s ease-out;transform-style:preserve-3d}
-#card{background:var(--glass);border:1px solid var(--line);border-radius:26px;padding:26px 26px 18px;backdrop-filter:blur(9px) saturate(1.6);-webkit-backdrop-filter:blur(9px) saturate(1.6);box-shadow:0 60px 120px -30px rgba(0,0,0,.65),0 20px 40px -20px rgba(75,139,190,.35),inset 0 1px 0 rgba(255,255,255,.2),inset 0 -30px 60px -40px rgba(75,139,190,.25);max-height:92vh;overflow-y:auto;transform-style:preserve-3d}
-#card.flip{animation:flip .65s cubic-bezier(.2,.8,.2,1)}
-@keyframes flip{from{opacity:0;transform:rotateY(-75deg) translateZ(-80px)}}
-.brand{text-align:center;margin-bottom:14px}.brand .orb{margin:0 auto 10px;width:54px;height:54px;font-size:26px}.brand h2{margin:0;font-size:24px;letter-spacing:-.02em}.brand p{margin:4px 0 0;color:var(--mut);font-size:13.5px}
-.v{display:none}.v.on{display:block}
-.f{display:block;margin-bottom:12px}.f span{display:block;font-size:12px;color:var(--mut);margin-bottom:5px}.pw{position:relative}
-.f input{width:100%;box-sizing:border-box;background:var(--bot);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--tx);font:inherit;outline:none;box-shadow:inset 0 3px 8px rgba(0,0,0,.25)}
-.f input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(75,139,190,.25),inset 0 3px 8px rgba(0,0,0,.2)}
-.eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;cursor:pointer;font-size:16px;opacity:.7}
-.pbtn,.gbtn{width:100%;border:0;border-radius:14px;padding:13px;font:600 15px system-ui,sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;margin-top:6px;transition:.15s}
-.pbtn{color:#10204a;background:linear-gradient(135deg,var(--yel),#ffb347);box-shadow:0 5px 0 #b97d14,0 14px 24px -8px rgba(255,180,70,.55),inset 0 1px 0 rgba(255,255,255,.5)}
-.pbtn:active{transform:translateY(4px);box-shadow:0 1px 0 #b97d14}
-.gbtn{background:#fff;color:#27304d;box-shadow:0 5px 0 #b9c0d6,0 12px 22px -8px rgba(0,0,0,.45)}.gbtn:active{transform:translateY(4px);box-shadow:0 1px 0 #b9c0d6}
-.gl{font:800 18px Arial,sans-serif;background:conic-gradient(#ea4335 0 25%,#fbbc05 0 50%,#34a853 0 75%,#4285f4 0);-webkit-background-clip:text;background-clip:text;color:transparent}
-.or{display:flex;align-items:center;gap:10px;color:var(--mut);font-size:12px;margin:14px 0 8px}.or:before,.or:after{content:"";flex:1;height:1px;background:var(--line)}
-.sw{text-align:center;color:var(--mut);font-size:13.5px;margin:14px 0 0}a[data-go]{color:var(--yel);cursor:pointer;font-weight:600}a[data-go]:hover{text-decoration:underline}
-.lk{display:block;text-align:right;font-size:13px;margin:-4px 0 8px}
-.sb{height:5px;border-radius:5px;background:var(--bot);margin:-4px 0 12px;overflow:hidden}.sb i{display:block;height:100%;width:0;transition:.3s}
-#msg{font-size:13px;border-radius:10px;margin-bottom:10px}#msg.on{padding:9px 12px;background:rgba(255,90,90,.15);border:1px solid rgba(255,90,90,.4);color:#ff9a9a}#msg.on.ok{background:rgba(53,224,138,.12);border-color:rgba(53,224,138,.4);color:#6df0ad}
-.hint{font-size:12.5px;color:var(--mut);margin:0 0 12px}.fine{text-align:center;font-size:11px;color:var(--mut);margin:12px 0 0;opacity:.8}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 #toast{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));left:50%;transform:translate(-50%,-160%);z-index:9;background:#12306a;color:#fff;border:1px solid var(--yel);padding:12px 18px;border-radius:14px;box-shadow:0 20px 40px rgba(0,0,0,.5);transition:.4s;max-width:92vw;font-size:14px}#toast.on{transform:translate(-50%,0)}
 #out{margin-left:auto;border:1px solid var(--line);background:var(--bot);color:var(--tx);border-radius:999px;padding:7px 13px;font:inherit;font-size:13px;cursor:pointer}#out:hover{border-color:var(--yel)}
 </style>
 </head>
-<body class="locked"><noscript><div style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#070b1a;color:#eaf0ff;font-family:system-ui,sans-serif;font-size:18px;text-align:center;padding:20px;z-index:999"><p>⚠️ Ultron requires JavaScript.<br>Please enable JavaScript in your browser to use this chatbot.</p></div></noscript>
+<body><noscript><div style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#070b1a;color:#eaf0ff;font-family:system-ui,sans-serif;font-size:18px;text-align:center;padding:20px;z-index:999"><p>⚠️ Ultron requires JavaScript.<br>Please enable JavaScript in your browser to use this chatbot.</p></div></noscript>
 <canvas id="gl"></canvas>
 <div class="hero"><h1>Ultron</h1><p>A friendly little chatbot that knows its way around Python. Ask it anything, in plain English.</p></div>
 <div class="stage">
 <div class="panel" id="panel">
-<header><div class="orb">🐍</div><div><b>Ultron</b><small id="st"><span class="dot"></span>online · Python tutor</small></div><button id="out" title="Sign out">⎋ <span id="who"></span></button></header>
+
 <div id="msgs" aria-live="polite"></div>
 <div id="chips"></div>
 <div class="bar"><input id="in" placeholder="Ask me about Python…" autocomplete="off" aria-label="Your question"><button id="go" type="button" aria-label="Send message">Send</button></div>
 </div>
 </div>
 <div id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
-<div id="auth"><div id="wrap"><div id="card" data-v="in"><div class="brand"><div class="orb">🐍</div><h2 id="ttl"></h2><p id="sub"></p></div><div id="msg" role="alert"></div><div id="views"></div><p class="fine">Demo sign-in · accounts are stored only in this browser</p></div></div></div>
+
 <script>/**
  * @license
  * Copyright 2010-2021 Three.js Authors
@@ -537,44 +537,44 @@ window.welcome=async()=>{msgs.innerHTML="";chips([]);await sleep(500);const d=ad
 /* tilt panel */
 const panel=$("panel");let mx=0,my=0;
 addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5;panel.style.transform=`rotateY(${mx*5}deg) rotateX(${-my*4}deg)`});
-/* ---------- AUTH (client-side demo) ---------- */
-const GOOGLE_CLIENT_ID="845673480831-ohahtpksplpb5upp4p1capuouet3hhnb.apps.googleusercontent.com";   // ✅ Real Google OAuth enabled
-const mem={},st={get(k){try{return localStorage.getItem(k)}catch(e){return mem[k]??null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){mem[k]=v}}};
-const users=()=>{try{return JSON.parse(st.get("ul_users")||"{}")}catch(e){return{}}},saveU=u=>st.set("ul_users",JSON.stringify(u));
-async function H(p,s){try{const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s+p));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("")}catch(e){let h=5381;for(const c of s+p)h=(h*33^c.charCodeAt(0))>>>0;return"f"+h}}
-const rnd=()=>Math.random().toString(36).slice(2)+Date.now().toString(36),cap=s=>s.replace(/\b\w/g,c=>c.toUpperCase());
-const em=v=>v.trim().toLowerCase(),okE=v=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v),val=id=>$(id).value;
-const F=(id,l,t,ph,ac)=>`<label class="f"><span>${l}</span><div class="pw"><input id="${id}" type="${t}" placeholder="${ph}" autocomplete="${ac}">${t==="password"?`<button type="button" class="eye" data-eye="${id}" aria-label="Show or hide password">👁</button>`:""}</div></label>`;
-const GB=`<div class="or"><span>or</span></div><button class="gbtn" data-act="google"><span class="gl">G</span>Continue with Google</button>`;
-const VIEWS={
-in:F("e1","Email","email","you@gmail.com","email")+F("p1","Password","password","Your password","current-password")+`<a class="lk" data-go="forgot">Forgot password?</a><button class="pbtn" data-act="signin">Sign in</button>`+GB+`<p class="sw">New here? <a data-go="up">Create an account</a></p>`,
-up:F("n2","Full name","text","Asha Rao","name")+F("e2","Email","email","you@gmail.com","email")+F("p2","Password","password","At least 8 characters","new-password")+`<div class="sb" role="progressbar" aria-label="Password strength" aria-valuenow="0" aria-valuemin="0" aria-valuemax="4"><i id="sbar"></i></div>`+F("c2","Confirm password","password","Repeat password","new-password")+`<button class="pbtn" data-act="signup">Create account</button>`+GB+`<p class="sw">Already a member? <a data-go="in">Sign in</a></p>`,
-forgot:F("e3","Email","email","you@gmail.com","email")+`<button class="pbtn" data-act="forgot">Send reset code</button><p class="sw"><a data-go="in">← Back to sign in</a></p>`,
-reset:F("k4","6-digit code","text","123456","one-time-code")+F("p4","New password","password","At least 8 characters","new-password")+F("c4","Confirm new password","password","Repeat password","new-password")+`<button class="pbtn" data-act="reset">Reset password</button><p class="sw"><a data-go="in">← Back to sign in</a></p>`,
-google:`<p class="hint">Demo mode: No Google OAuth Client ID is configured. Enter a Gmail address to simulate sign-in locally (no data leaves your browser).</p>`+F("e5","Gmail address","email","you@gmail.com","email")+`<button class="gbtn" data-act="gdemo"><span class="gl">G</span>Continue</button><p class="sw"><a data-go="in">← Back</a></p>`};
-$("views").innerHTML=Object.entries(VIEWS).map(([k,v])=>`<div class="v" id="v-${k}">${v}</div>`).join("");
-const TT={in:["Welcome back","Sign in to chat with Ultron"],up:["Create account","Join in seconds, it’s free"],forgot:["Forgot password?","We’ll send you a reset code"],reset:["Reset password","Enter the code and a new password"],google:["Continue with Google","Choose your Gmail account"]};
-const card=$("card");let RS=null;
-function msg(t,ok){const m=$("msg");m.className=t?(ok?"on ok":"on"):"";m.textContent=t||""}
-function show(v){card.dataset.v=v;$("ttl").textContent=TT[v][0];$("sub").textContent=TT[v][1];msg("");card.classList.remove("flip");void card.offsetWidth;card.classList.add("flip");document.querySelectorAll(".v").forEach(e=>e.classList.toggle("on",e.id==="v-"+v));const f=document.querySelector("#v-"+v+" input");if(f)setTimeout(()=>f.focus({preventScroll:true}),350)}
-function toast(code){const t=$("toast");t.textContent="📧 Demo mode: a real app would email this. Your reset code is "+code;t.classList.add("on");setTimeout(()=>t.classList.remove("on"),30000)}
-function enter(e){const u=users()[e];st.set("ul_session",e);name=cap(u.name.split(" ")[0]);$("who").textContent=name;document.body.classList.remove("locked");msg("");["e1","p1","n2","e2","p2","c2"].forEach(i=>$(i).value="");window.welcome()}
-function gUser(e,n){const U=users();if(!U[e]){U[e]={name:cap(n),g:1};saveU(U)}enter(e)}
-function gsi(){const go=()=>{google.accounts.id.initialize({client_id:GOOGLE_CLIENT_ID,callback:r=>{try{const p=JSON.parse(atob(r.credential.split(".")[1].replace(/-/g,"+").replace(/_/g,"/")));gUser(p.email.toLowerCase(),p.name||p.email.split("@")[0])}catch(x){msg("Google sign-in failed.")}}});google.accounts.id.prompt(n=>{if(n.isNotDisplayed()||n.isSkippedMoment()){const fb=document.createElement('div');fb.id='g_id_fallback';google.accounts.id.renderButton(fb,{type:'standard',theme:'outline',size:'large',width:340});const v=document.querySelector('.v.on');if(v&&!document.getElementById('g_id_fallback'))v.prepend(fb)}})};
- if(window.google&&google.accounts)return go();const s=document.createElement("script");s.src="https://accounts.google.com/gsi/client";s.onload=go;s.onerror=()=>msg("Couldn’t reach Google. Check your connection.");document.head.appendChild(s)}
-const ACT={
-async signin(){const e=em(val("e1")),p=val("p1");if(!okE(e)||!p)return msg("Enter your email and password.");const u=users()[e];if(u&&!u.hash)return msg("This account uses Google. Use “Continue with Google”.");if(!u||await H(p,u.salt)!==u.hash)return msg("Incorrect email or password.");enter(e)},
-async signup(){const n=val("n2").trim(),e=em(val("e2")),p=val("p2");if(n.length<2)return msg("Please enter your name.");if(!okE(e))return msg("Enter a valid email address.");if(p.length<8)return msg("Password must be at least 8 characters.");if(p!==val("c2"))return msg("Passwords don’t match.");const U=users();if(U[e])return msg("An account with this email already exists. Try signing in.");const salt=rnd();U[e]={name:n,salt,hash:await H(p,salt)};saveU(U);enter(e)},
-forgot(){const e=em(val("e3"));if(!okE(e))return msg("Enter the email you signed up with.");RS=null;if(users()[e]){const code=String(100000+Math.floor(Math.random()*900000));RS={e,code,exp:Date.now()+6e5};toast(code)}show("reset");msg("If that email is registered, a reset code is on its way. The code is valid for 10 minutes.",1)},
-async reset(){if(!RS||val("k4").trim()!==RS.code||Date.now()>RS.exp)return msg("That code is invalid or has expired.");const p=val("p4");if(p.length<8)return msg("Password must be at least 8 characters.");if(p!==val("c4"))return msg("Passwords don’t match.");const U=users(),u=U[RS.e],e=RS.e;u.salt=rnd();u.hash=await H(p,u.salt);saveU(U);RS=null;$("toast").classList.remove("on");show("in");$("e1").value=e;msg("Password updated. Sign in with your new password.",1)},
-google(){if(GOOGLE_CLIENT_ID)return gsi();show("google")},
-gdemo(){const e=em(val("e5"));if(!/^[^\s@]+@(gmail|googlemail)\.com$/.test(e))return msg("Enter a valid Gmail address.");gUser(e,e.split("@")[0].replace(/[._]/g," "))}};
-card.addEventListener("click",e=>{const t=e.target.closest("[data-go],[data-act],[data-eye]");if(!t)return;if(t.dataset.go)return show(t.dataset.go);if(t.dataset.eye){const i=$(t.dataset.eye);i.type=i.type==="password"?"text":"password";return}ACT[t.dataset.act]()});
-card.addEventListener("keydown",e=>{if(e.key==="Enter"){const b=document.querySelector(".v.on .pbtn")||document.querySelector(".v.on .gbtn");if(b)b.click()}});
-$("p2").addEventListener("input",e=>{const p=e.target.value;const sc=(p.length>=8)+(/[a-z]/.test(p)&&/[A-Z]/.test(p))+/\d/.test(p)+/[^A-Za-z0-9]/.test(p);const b=$("sbar");b.style.width=sc*25+"%";b.style.background=["#ff5a5a","#ff5a5a","#ffb347","#9be15d","#35e08a"][sc];b.closest("[role=progressbar]")&&b.closest("[role=progressbar]").setAttribute("aria-valuenow",sc)});
-$("out").onclick=()=>{st.set("ul_session","");name=null;ctx={e:null,rel:[]};document.body.classList.add("locked");show("in")};
-addEventListener("pointermove",e=>{$("wrap").style.transform=`rotateY(${mx*6}deg) rotateX(${-my*5}deg)`});
-{const ss=st.get("ul_session");users()[ss]?enter(ss):show("in")}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 /* ---------- 3D ---------- */
 try{
 const cv=$("gl"),R=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true});
